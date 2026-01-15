@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class DoubleOperation{
+public class Double_Operation{
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 	System.out.print("Enter a:");
