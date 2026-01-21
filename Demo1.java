@@ -1,26 +1,28 @@
 public class Demo1{
-static int x;
-int z=19;
-public static void m2(){
-    int y = 30;
-	System.out.println(y);
+    static int x = 12;
+    int z = 24;
+    public static void m2(){
+        int y = 10;
+        System.out.println(y);
+    }
+    public static void m1(){
+        int y = 23;
+        System.out.println(y);
+        m2();
+    }
+    void m3(){
+        int a = 45;
+        System.out.println(a);
+    }
+    public static void main(String[] args){
+        int y = 90;
+        System.out.println("HelloWorld");
+        System.out.println(x);
+        System.out.println(y);
+        m1();
+        Demo1 obj = new Demo1();
+        System.out.println(obj.z);
+        obj.m3();
+    }
 }
 
-public static void m1(){
-    int y = 20;
-	System.out.println(y);
-	m2();
-}
-
-public static void main(String[] args){
-    int y = 10;
-    System.out.println("HelloWorld");
-    System.out.println(x);
-    System.out.println(y);
-    m1();
-    Demo1 obj = new Demo1();
-	System.out.println(obj.z);
-	
-}
-
-}
