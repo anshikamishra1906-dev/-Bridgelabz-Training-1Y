@@ -1,4 +1,4 @@
-public class Operators{
+public class OperatorsLoops{
     public static void main(String[] args){
 	int i = 0;
 	System.out.println("val :"+i); //0
